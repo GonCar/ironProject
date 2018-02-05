@@ -1,8 +1,17 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+/******** LOGIN **********/
+.login-wrapper {
+  background: orange;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+.login-box {
+  background: #fff;
+  width: 250px;
+  margin: 25vh auto;
+  padding: 10px;
 }
