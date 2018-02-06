@@ -1,5 +1,6 @@
 const User = require('../models/user.model');
 const LocalStrategy = require('passport-local').Strategy;
+const FBStrategy = require('passport-facebook').Strategy;
 
 module.exports.setup = passport => {
   passport.serializeUser((user, next) => {
