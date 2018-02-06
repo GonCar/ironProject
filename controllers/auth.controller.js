@@ -5,7 +5,9 @@ const passport = require('passport');
 module.exports.signup = (req, res, next) => {
   res.render('auth/signup');
 };
-
+module.exports.signup = (req, res, next) => {
+  res.render('auth/signup2');
+};
 module.exports.doSignup = (req, res, next) => {
   User.findOne({ email: req.body.email })
     .then(user => {
