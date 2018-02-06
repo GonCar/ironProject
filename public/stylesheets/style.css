@@ -1,17 +1,47 @@
 body {
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /******** LOGIN **********/
+
 .login-wrapper {
   background: orange;
   height: 100vh;
   width: 100vw;
   position: absolute;
 }
+
 .login-box {
+  display: flex;
   background: #fff;
-  width: 250px;
-  margin: 25vh auto;
+  width: 350px;
+  margin: 20vh auto;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+.login-box img {
+  margin: 50px auto 20px;
+}
+.login-box h2 {
+  margin: 10px 0 40px;
+  color: #f5a432;
+}
+.login-box input {
+  width: 230px;
+  margin-bottom: 15px;
+  padding: 5px 14px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  background: #f5a4323b;
+}
+.login-box button{
+  width: 230px;
+  border: none;
+  background: #ecc07a;
   padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
 }
